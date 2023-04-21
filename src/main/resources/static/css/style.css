@@ -1,0 +1,105 @@
+.gradient-custom {
+/* fallback for old browsers */
+background: #f6d365;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #AB47BC
+}
+
+.card {
+	color:#fff;
+    width: 350px;
+    border-radius: 10px;
+   background: linear-gradient(145deg, #9a40a9, #b74cc9);
+box-shadow:  20px 20px 60px #913ca0, 
+             -20px -20px 60px #c552d8;
+    border: none
+}
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+background: linear-gradient(145deg, #9a40a9, #b74cc9);
+box-shadow: inset 20px 20px 60px #FFF, 
+             inset -20px -20px 60px #c552d8;
+}
+.neo-button:before {
+    background:white;
+}
+
+.num{
+	
+	color:#eee !important;
+}
+
+.line{
+	color:#fff;
+}
+
+.neo-button:hover {
+   border-radius: 50%;
+background: #ebe0d3;
+box-shadow:  28px 28px 57px #933da2, 
+             -28px -28px 57px #c351d6;
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-linkedin {
+    color: #0077b5
+}
+
+.fa-google {
+    color: #dc4e41
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.profile_button{
+	color:#fff;
+	padding:10px; 
+   border:none;
+   outline:0 !important;
+border-radius: 50px;
+background: #AB47BC;
+box-shadow:  28px 28px 57px #933da2, 
+             -28px -28px 57px #c351d6;
+	
+}
